@@ -10,7 +10,7 @@ This repository contains the hardware designs and bare-metal firmware kernels fo
     *   Phase Inductance (Ls): ~31 μH
     *   Phase Resistance (Rs): ~90 mΩ
     *   Flux Linkage (λ): ~0.00041 Wb
-*   **Power Stage:** Discrete IR2101 gate drivers driving IRFZ44N MOSFETs, decoupled via high-speed 6N137 optocouplers for hardware shoot-through mitigation.
+*   **Power Stage:** Discrete IR2101 gate drivers driving AOT418 MOSFETs, decoupled via high-speed 6N137 optocouplers for hardware shoot-through mitigation.
 *   **Current Topology:** Injected low-side sensing through AD8418 current amplifiers paired with 2 mΩ shunts.
 
 ---
