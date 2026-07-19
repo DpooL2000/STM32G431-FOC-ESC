@@ -1,0 +1,1 @@
+#define HAL_OPAMP_MODULE_ENABLED
