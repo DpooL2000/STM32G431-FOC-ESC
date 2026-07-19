@@ -2,8 +2,6 @@
 
 This repository contains the hardware designs and bare-metal firmware kernels for a high-frequency sensorless FOC drive engine optimized for low-inductance UAV motors.
 
-https://github.com/user-attachments/assets/99595a78-734f-49b3-af64-d4f77fcafc02
-
 ## System Architecture
 
 *   **Microcontroller:** STM32G431 (170MHz Cortex-M4, utilizing internal CORDIC hardware co-processor).
