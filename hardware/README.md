@@ -2,6 +2,10 @@
 
 This directory contains the schematic and PCB layout for the bare-metal STM32G431 ESC, designed specifically for high-frequency sensorless FOC.
 
+<p align="center">
+<img src="hardware/images/hardware.jpg" width="650" alt="Carrier Board Layout" />
+</p>
+
 ## Power Stage & Isolation Topology
 * **Gate Drivers:** Discrete IR2101 drivers pushing IRFZ44N MOSFETs.
 * **Galvanic Isolation:** High-speed 6N137 optocouplers isolate the logic layer (STM32) from the power stage to prevent ground bounce and protect against high *di/dt* switching noise.
