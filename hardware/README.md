@@ -3,7 +3,7 @@
 This directory contains the schematic and PCB layout for the bare-metal STM32G431 ESC, designed specifically for high-frequency sensorless FOC.
 
 <p align="center">
-<img src="hardware/images/hardware.jpg" width="650" alt="Carrier Board Layout" />
+<img src="images/hardware.jpg" width="650" alt="Carrier Board Layout" />
 </p>
 
 ## Power Stage & Isolation Topology
