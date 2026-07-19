@@ -2,10 +2,7 @@
 
 This repository contains the hardware designs and bare-metal firmware kernels for a high-frequency sensorless FOC drive engine optimized for low-inductance UAV motors.
 
-<video width="100%" controls>
-  <source src="./harware/videos/Gx012314_.m4v" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![FOC Drive Demonstration](./harware/videos/Gx012314_.m4v)
 
 ## System Architecture
 
