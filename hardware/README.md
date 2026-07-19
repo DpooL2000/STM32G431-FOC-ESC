@@ -15,4 +15,4 @@ The hardware was simulated and validated against exact MOSFET switching characte
 ## Signal Conditioning & Analog Front End (AFE)
 * **Current Sensing:** Low-side current measurement utilizing 2 mΩ shunts paired with AD8418 current sense amplifiers for precision synchronous sampling.
 * **BEMF Sensing:** Phase voltages (A, B, C) are stepped down via precise resistor divider networks (10k/1k).
-* **Hardware Filtering:** The BEMF signals pass through dedicated RC low-pass filters tuned to a 172.1 kHz cutoff frequency, resulting in a known, deterministic 7.9° phase lag that is compensated for in software.
+* **Hardware Filtering:** The BEMF signals pass through dedicated RC low-pass filters tuned to a 172.1 kHz cutoff frequency, resulting in a known, deterministic 7.9° phase lag that is compensated for in software. 
