@@ -14,7 +14,7 @@ This directory contains the schematic and PCB layout for the bare-metal STM32G43
 ## Switching Dynamics & Thermal Constraints
 The hardware was simulated and validated against exact MOSFET switching characteristics:
 * **Miller Plateau Management:** Gate charge limits and switching losses were modeled at varying drive currents to optimize the transition through the Miller Plateau.
-* **Shoot-Through Protection:** Hardware deadtime is physically characterized at 1.9 μs to ensure absolute safe-state switching during high/low side handoffs.
+* **Shoot-Through Protection:** Hardware deadtime is physically characterized at 900 ns to ensure absolute safe-state switching during high/low side handoffs.
 
 ## Signal Conditioning & Analog Front End (AFE)
 * **Current Sensing:** Low-side current measurement utilizing 2 mΩ shunts paired with AD8418 current sense amplifiers for precision synchronous sampling.
